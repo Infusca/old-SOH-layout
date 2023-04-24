@@ -11,12 +11,13 @@
   <body id="bootstrap-overrides">
     <div class="container-fluid">  <!-- will make the container span entire viewport [full width] -->
 
-      <header class="row">
+      <header id="header" class="row">
         <div class="website-name">
           <a href="index.html">Smoke on Horizon</a>
         </div>
         <div class="nav">
-          <a href="index.html">blog</a>
+          <a href="about.html">about</a>
+          <a href="https://tiny-gazelle-168.notion.site/Blogs-d36b33849df745e48a8c94a0ebfef6c9">blog</a>
           <a href="code.html">coding</a>
           <a href="music.html">music</a>
           <a href="metal.html">metal detecting</a>
@@ -30,68 +31,76 @@
 
         <article class="code content col-8">
           <h6> Programming & Coding </h6>
-            <div>
-              <p class=""> Here is a collection of different coding projects I've done. Tutorials / courses I've taken or projects I've come up with myself. </p>
-              <p> For some reason at the moment the links are not showing up... I need to fix this... I am working on it.</p>
-            </div>
+          <p> I currently know Python, JavaScript, HTML, CSS, and I've done a little with VBA in Excel. I still need to master C++ and it's on my Life Goals To Do List. </p>
+          <p> Here is a collection of different coding projects I've done either via a tutorials or online course, or on my own. </p>
+          <p> Visit my <a href="https://github.com/Infusca?tab=repositories" target="new window"> GitHub </a> to see more.</p>
         </article>
   
-        <div class="code-article content col-8">
-          <article class="leftside">
-            <h6 class="cap-link"> <a href="https://github.com/Infusca/DigItAll/raw/master/dig%20it%20all.zip">Dig it all</a> </h6>
-              <div>
-                <p> Dig It All is a metal detecting game I made. The link is to a zipfile from my github. You will have to unzip it to play the game. Once you extract the files, click into the folder and run the digItAll_v2.exe file. It will only work on Windows, though I do have a Mac version, it is not uploaded. All images used in the game are real coins or relics that either Stef or I have found metal detecting. </p>
-              </div>
-          </article>
+        <article class="code content col-8">
+          <h6> Dig it all </h6>
+            <img src="images/digitall_screenshot.png">
+              <p> Dig It All is a metal detecting game I made using Python. I am currently planning on making a new and improved, and more advanced version of the game. </p>
+              <p> This version will only work on Windows. I did make a working Mac version, however it is not available to download yet. </p>
+              <p> All images used in the game are real coins or relics that either Stef or I have found metal detecting. </p>
+              <p> Download the game <a href="https://github.com/Infusca/DigItAll/raw/master/dig%20it%20all.zip"> Here </a>.</p>
+        </article>
 
-          <article class="rightside">
-            <h6 class="cap-link"> <a href="code/minesweeper/minesweeper.html" target="new window">Minesweeper</a> </h6>
-                <p> I used to love playing minesweeper so I decided to try to create my own version of the game. It's not quite complete. I'll finish it eventually; but it's basic and it works. </p>
-          </article>
-        </div>
+        <article class="code-article content col-8">
+          <h6> Minesweeper </h6>
+            <img src="images/minesweeper_screenshot.png" style="width:200px">
+              <p> As a kid, I loved minesweeper, so I decided to recreate it myself for coding practice. It's not quite complete, but here's what I have so far. It's written in JavaScript and will play in your browser. </p>
+              <p> This current version does not work like real minesweeper. You can not right click to flag suspected bombs. In order to play, left click the squares you think are safe, only. Leave suspected bombs alone and when you think you've completed it, click the bottom button to find out if you won. The image to the right shows a completed winning game. </p>
+              <p> Click <a href="code/minesweeper/minesweeper.html" target="new window">Here</a> to play. </p>
+        </article>
         
-        <div class="code-article content col-8">
-          <article class="leftside">
-            <h6 class="cap-link"> <a href="code/budget app/budget-app.html" target="new window">Budget App</a> </h6>
-                <p> A budgeting app. Keep track of income and expenses for them month. This was a tutorial from... </p>
-          </article>
+        <article class="code-article content col-8">
+            <h6> Budget App </h6>
+            <img src="images/budget_screenshot.PNG" style="width:400px">
+            <p> A budgeting app I created from a tutorial using JavaScript. Keep track of income and expenses for the month. </p>
+            <p> Check out the app <a href="code/budget app/budget-app.html" target="new window"> HERE </a>. </p>
+        </article>
     
-          <article class="rightside">
-            <h6 class="cap-link"> <a href="code/pig game/pig-game.html" target="new window">Pig Game</a> </h6>
-                <p> Take turns rolling die. Choose to hold and add to current score or roll again. If you roll a 1 you lose that round. First to 100 wins. You can set the winning score to whatever you want. This was a tutorial from...</p>
-          </article>
-        </div>
+        <article class="code-article content col-8">
+          <h6> Pig Game </h6>
+            <img src="images/piggame_screenshot.png" style="width:400px">
+            <p> A JavaScript game I made from a tutorial that is similar to the game Pass The Pigs (which I love - the pigs are so cute!). </p>
+            <p> Take turns rolling die. Keep rolling to raise your score, or choose to hold, and keep your score and end your turn. If you roll a 1 you lose all points round. First to 100 wins. You can set the winning score to whatever you want. </p>
+            <p> Play game <a href="code/pig game/pig-game.html" target="new window"> HERE </a>. </p>
+        </article>
         
-        <div class="code-article content col-8">
-          <article id="left-bot" class="leftside">
-            <h6 class="cap-link"> <a href="code\question game\question-game.html" target="new window"> Simple Question Game</a> </h6>
-                <p> To play, click on link, then in new window, right click to open menu and click inspect element. Go to the console tab to be able to see the questions. Click Play. Enter the corresponding number to select the answer. The game will tally up how many questions you get right. This was a tutorial from...</p>
-          </article>
+        <article class="code-article content col-8">
+          <h6> Simple Question Game </h6>
+          <img src="images/questiongame_screenshot.PNG" style="width:400px">
+          <p> A simple JavaScript question game. To play, click on link, then in new window, right click to open menu and click inspect element. Go to the console tab to be able to see the questions. Click Play. Enter the corresponding number to select the answer. The game will tally up how many questions you get right. </p>
+          <p> Play <a href="code\question game\question-game.html" target="new window"> HERE </a>. </p>
+        </article>
     
-          <article id="right-bot" class="rightside">
-            <h6> Code Skulptor Tutorials </h6>
-              <div>
-                <p> Here are a few mini games I made using <span class="cap-link"> <a href="https://py2.codeskulptor.org/" target="new window">Code Skulptor</a> </span>. Code Skulptor allows you to run python scripts in your browser. Once you click the link, just hit the play button on the top left to see the game in action. I am aware that these games may not be working properly at the moment.</p>
-                <p> <span class="cap-link"> <a href="https://py2.codeskulptor.org/#user47_AfcZTuTrOFr8clE.py" target="new window">Pong</a> </span>. Arrows to move right side; WASD to move left side. </p>
-                <p> <span class="cap-link"><a href="https://py2.codeskulptor.org/#user47_kBHUEXK1pBnNe1N_0.py" target="new window">Another Pong game</a> </span>. To play this you must enter two names into the name field and then you will be able to hit start. </p>
-                <p> <span class="cap-link"><a href="https://py2.codeskulptor.org/#user47_MDJFEZMNsU_3.py" target="new window">Asteroids</a> </span>. Use arrows to move. Spacebar to shoot. </p>
-              </div>
-          </article>
-        </div>
+        <article class="code-article content col-8">
+          <h6> Code Skulptor Tutorials </h6>
+          <p> Here are a few mini games I made using Code Skulptor</a> </span>. Code Skulptor allows you to run python scripts in your browser. Once you click the link, just hit the play button on the top left to see the game in action. I am aware that these games may not be working properly at the moment.</p>
+          <p> <span class="cap-link"> <a href="https://py2.codeskulptor.org/#user47_AfcZTuTrOFr8clE.py" target="new window">Pong</a> </span>. Arrows to move right side; WASD to move left side. </p>
+          <p> <span class="cap-link"><a href="https://py2.codeskulptor.org/#user47_kBHUEXK1pBnNe1N_0.py" target="new window">Another Pong game</a> </span>. To play this you must enter two names into the name field and then you will be able to hit start. </p>
+          <p> <span class="cap-link"><a href="https://py2.codeskulptor.org/#user47_MDJFEZMNsU_3.py" target="new window">Asteroids</a> </span>. Use arrows to move. Spacebar to shoot. I am aware there is a glitch in this game... when you shoot, the game will crash.</p>
+        </article>
       
     </main>
 
     <footer>
-      <p> &copy 2021-2022 Created and maintained by Infusca </p>
       <p>
+        <p> Find me in social media. </p>
         <a href="https://www.facebook.com/TurnKEYwoodcrafts" target="new window"> <img class="favicons" src="images/fb-favicon.jpg"> </a>
         <a href="https://www.instagram.com/turnkeywoodcrafts/?hl=en" target="new window"><img class="favicons" src="images/instgm-favicon.jpg"> </a>
         <a href="https://www.linkedin.com/in/nichola-holcomb-008a28192/" target="new window"><img class="favicons" src="images/linkedin-favicon.jpg"> </a>
-        <a href="https://twitter.com/Infusca" target="new window"> <img class="favicons" src="images/twitter-favicon.jpg"> </a>
-        <a href="https://www.pinterest.com/nic192/_saved/" target="new window"> <img class="favicons" src="images/pinterest-favicon.jpg">  </a>
-        <a href="#" target="new window"> <img class="favicons" src="images/tk-favicon.jpg"> </a>
       </p>
-
+      <p> ~ </p>
+      <p> Affiliates. </p>
+        <a href="https://www.youtube.com/channel/UCCzu8TuDdx5aEDs2H2Zripg" target="new window"> Stef Digs</a> ○
+        <a href="https://www.forgottennook.com/" target="new window">The Forgotten Nook</a> ○
+        <a href="https://gwyche.wordpress.com/" target="new window">Overthink</a> ○
+        <a href="https://www.erenraymond.com/" target="new window">Eren Raymond</a>
+      <p> ~ </p>
+      <p> &copy 2023 <br>
+      Created and maintained by Infusca </p>
     </footer>
 
 
